@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4ac37a</color>
+    <color name="colorPrimaryDark">#338855</color>
+    <color name="colorAccent">#f0ab4f</color>
+    <color name="table_header_text">#FFFFFF</color>
+    <color name="table_data_row_even">#e7e7e7</color>
+    <color name="table_data_row_odd">#e7e7e7</color>
+    <color name="header">#ffffff</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

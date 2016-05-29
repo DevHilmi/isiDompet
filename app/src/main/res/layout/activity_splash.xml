@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/dompet"
+        android:layout_alignBottom="@+id/textIsiDompet"
+        android:layout_alignRight="@+id/saveButton2"
+        android:layout_alignEnd="@+id/saveButton2"
+        android:layout_marginBottom="33dp" />
+    <TextView
+        android:id="@+id/textIsiDompet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="176dp"
+        android:text="Input Nominal Awal Anda :"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textIsiDompet"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/balanceText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Balance"
+        android:inputType="number"
+        android:layout_below="@+id/textBalance"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/saveButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:theme="@style/MyButton"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/balanceText2"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

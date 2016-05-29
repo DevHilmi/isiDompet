@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textIsiDompet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="39dp"
+        android:text="Isi Dompet Mu :"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textIsiDompet"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/balanceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Balance"
+        android:inputType="number"
+        android:layout_below="@+id/textBalance"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/descriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Description"
+        android:singleLine="true"
+        android:layout_below="@+id/balanceText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/outButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OUT"
+        android:theme="@style/MyButton"
+        android:textColor="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/balanceText"
+        android:layout_alignEnd="@+id/balanceText" />
+
+    <Button
+        android:id="@+id/inButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IN"
+        android:theme="@style/MyButton"
+        android:textColor="#FFFFFF"
+        android:layout_alignTop="@+id/outButton"
+        android:layout_alignLeft="@+id/balanceText"
+        android:layout_alignStart="@+id/balanceText" />
+
+
+</RelativeLayout>
