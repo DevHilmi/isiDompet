@@ -5,6 +5,7 @@ Description : <br>
 
 
 Money Management Apps, with graph and table implementation <br>
+for Raion Univeritas Brawijaya Internship Program <br> 
 
 List of used library : <br>
     compile 'com.android.support:appcompat-v7:23.2.1'<br>
