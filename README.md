@@ -21,4 +21,4 @@ List of used library : <br>
 
 
 Issues :<br>
-1. Bug RushORM on Android Studio 2.x <br>
+1. Bug SugarORM on Android Studio 2.x <br>
